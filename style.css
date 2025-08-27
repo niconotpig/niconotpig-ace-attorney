@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+.cooltext {
+    /*text*/
+    width: 80%;
+    color: white;
+    text-align: center;
+    font-size:30px;
+    /*border*/
+    border-style: solid;
+    margin:35% auto auto auto;
+    border-width: 2px;
+    border-color: gray;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
