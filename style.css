@@ -1,42 +1,44 @@
 body {
     background-image: url(judge.webp);
-    background-size:cover
-
+    background-size: cover;
 }
-div.cooltext {
-    /*text*/
+div.textbox {
     position: relative;
-    width: 80%;
-    color: white;
-    text-align: center;
-    font-size:25px;
-    font-family: PWAA;
-    background-color: #11182bbf;
-    /*border*/
-    border-style: solid;
-    margin:35% auto auto auto;
-    border-width: 2px;
-    border-color: gray;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    top:500px;
+    left:120px;
+    fill: #0d1428b4;
+    stroke: white;
+    stroke-width: 2px;
 
 }
 div.nametag {
     position: absolute;
-    left:20px;
-    top:-6px;
-    bottom:10px
+    left:18px;
+    top: -5px;
     text-align: center;
     /*text*/
     font-size:20px;
 }
+
 div.tag {
     position: absolute;
-    left:60px;
+    left:10px;
     top:-15px;
     fill: #2a88bc;
     stroke-width: 2px;
     stroke:gray;
+}
+.text {
+    position:absolute;
+    top:30px;
+    left:40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.PWAA {
+    font-family: PWAA;
+    color:white;
 }
 
 @font-face {
