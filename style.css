@@ -1,41 +1,85 @@
 body {
-    background-image: url(judge.webp);
+    background-image:url(judge.webp);
+    background-repeat:no-repeat;
     background-size: cover;
+    background-position: center top;
+    background-attachment: scroll;
 }
-div.textbox {
-    position: relative;
-    top:500px;
-    left:120px;
+/*main textbox*/
+.textbox {
+    position: absolute;
+    width: 100%;
+    bottom: 5vh;
+    text-align: center;
+}
+
+polygon.box {
+    position: absolute;
+    text-align: center;
+    margin:0px;
+    bottom: 0vh;
     fill: #0d1428b4;
     stroke: white;
     stroke-width: 2px;
 
 }
-div.nametag {
+
+h1.center-text {
     position: absolute;
-    left:18px;
-    top: -5px;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0%;
     text-align: center;
-    /*text*/
-    font-size:20px;
+    font-size: 4vh;
+}
+
+/*judge name tag*/
+.nametag {
+    position: absolute;
+    bottom: 28.8vh;
+    left:27vh;
+    text-align: left;
 }
 
 div.tag {
     position: absolute;
-    left:10px;
-    top:-15px;
+    margin: 0vh;
     fill: #2a88bc;
     stroke-width: 2px;
-    stroke:gray;
-}
-.text {
-    position:absolute;
-    top:30px;
-    left:40px;
-    text-align: center;
-    font-size: 30px;
+    stroke:white;
 }
 
+div.name {
+    position: absolute;
+    margin: 0vh;
+    font-size:2.7vh;
+    left:2.8vh;
+    top:-1vh;
+}
+/* buttons */
+ .tabs {
+    display: none;
+    text-align: center;
+ }
+
+ .choicebutton {
+    position: relative;
+    background-color: #2a88bc;
+    color:white;
+    border: 1.5px solid white;
+    font-family: PWAA;
+    font-size: 2.5vh;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17vh;
+    margin-bottom: -12vh;
+    display: block;
+ }
+
+/*font*/
 .PWAA {
     font-family: PWAA;
     color:white;
