@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+    <head>
+        <link rel="stylesheet" href = style.css>
+        <meta name="viewport" content="width=device-width initial-scale=1.0"></head>
+    </head>
+
+    <body>
+        <!--making the main text-->
+        <div>
+            <div class="textbox">
+                <svg height="150" width="1200">
+                    <polygon class="box" points="0,0 1200,0 1200,150 0,150" onclick="textChange(); showButton()"></polygon>
+                </svg> 
+                <h1 class="PWAA center-text" id="bigbox">
+                    The court is now in session for the trial of Mr. NicoNotPig. <br> Prosecution will prove that they are guilty of being too cool.
+                </h1>
+            </div>
+            
+            <div class="nametag">
+                <div class="tag">
+                <svg height="30" width="100">
+                    <polygon  points="10,0 90,0 100,15 90,30 10,30 0,15"></polygon>
+                </svg>
+                </div>
+                <div class="PWAA name" id="nameTitle">
+                    Judge
+                </div>
+            </div>       
+        </div>
+        <!--The tabs to display information-->
+        <div class="tabs" id="buttontab">
+            <button class="choicebutton PWAA" onclick="displayInfo(event, 'aboutme')">Profile</button>
+            <button class="choicebutton PWAA" onclick="displayInfo(event, 'hobbies')">Alibies</button>
+            <button class="choicebutton PWAA" onclick="displayInfo(event, 'likes/dislikes')">Likes&Dislikes</button>
+            <button class="choicebutton PWAA" onclick="displayInfo(event, 'commitments');">Evidence</button>
+        </div>
+        <!--The information-->
+        <div class = wamajamText id="wamajama">
+            <div class="wamajam PWAA" id="aboutme">yap about myself yap yap yap</div>
+            <div class="wamajam PWAA" id="hobbies">music?</div>
+            <div class="wamajam PWAA" id="likes/dislikes">i love otters i hate genshin natlan</div>
+            <div class="wamajam PWAA" id="commitments">unemployed but also overworked at the same time???</div>
+        </div>
+<script src="main.js"></script>
+    </body>
+</html>

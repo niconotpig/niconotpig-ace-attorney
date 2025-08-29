@@ -32,7 +32,7 @@ h1.center-text {
     transform: translate(-50%, -50%);
     margin: 0%;
     text-align: center;
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
 
 /*judge name tag*/
@@ -67,9 +67,7 @@ div.name {
  .choicebutton {
     position: relative;
     background-color: #2a88bc;
-    color:white;
     border: 1.5px solid white;
-    font-family: PWAA;
     font-size: 2.5vh;
     width: 40%;
     margin-left: auto;
@@ -78,7 +76,20 @@ div.name {
     margin-bottom: -12vh;
     display: block;
  }
-
+ /* text after choosing dialogue option */
+ .buttonChoiceText{
+    text-align: center;
+ }
+.wamajam{
+    position:relative;
+    width:40%;
+    background-color: #74b3d6;
+    border: 2px solid white;
+    padding:5vh;
+    margin:auto;
+    text-align: center;
+    display: none;
+}
 /*font*/
 .PWAA {
     font-family: PWAA;
