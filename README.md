@@ -9,7 +9,8 @@ Hi hi!! I mostly figured things out and added javascript!! I'm still really bad 
 You can now actually click on the dialogue options to learn about me!! I might add more later on but this might be it for now. Mobile display is still buns and I don't really know how to fix that right now and it isn't really a priority. please don't visit this on mobile lmao
 
 ## notes and other:
-I had so much fun learning how to code with this project!! i'm loving coding so far and this lowkey makes me want to start a hack club in my own school. To see the dialogue options again, just click the transparent dialogue box. 
+I had so much fun learning how to code with this project!! i'm loving coding so far and this lowkey makes me want to start a hack club in my own school. To see the dialogue options again, just click the transparent dialogue box. This IS for the athena award!!
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
 
 ### 2025 august 28th - version 1 
 # Introduction
