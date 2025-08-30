@@ -1,7 +1,9 @@
 function textChange() {
     const bigbox=document.getElementById("bigbox")
-   
     bigbox.innerHTML = 'Will the defense choose a counterargument?';
+    let contents = document.getElementsByClassName("wamajam")
+    for (i=0;i<contents.length;i++)
+        contents[i].style.display = "none";
                  
     // textbox.addEventListener ('click', function(){
     //     let evidence = document.getElementById("wamajama");
@@ -21,9 +23,13 @@ function showButton() {
 // }
 
 function displayInfo(infoType){
-    let info = document.getElementById(infoType);
-    const textbox=document.getElementById("textbox");
-    document.getElementById("buttontab").style.display = "none";
+    let info, dialogue_options;
+    info = document.getElementById(infoType);
+    dialogue_options = document.getElementById("buttontab")
+    dialogue_options.style.display = "none"
     info.style.display = "block";
-    // window.onclick = info.style.display = "none";
+}
+
+function likes_dislikes(){
+    document.getElementById("likes/dislikes").innerHTML = "blanhahajhjhha"
 }

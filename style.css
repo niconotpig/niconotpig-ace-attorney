@@ -82,12 +82,18 @@ div.name {
  }
 .wamajam{
     position:relative;
-    width:40%;
+    width:45%;
     background-color: #74b3d6;
     border: 2px solid white;
     padding:5vh;
     margin:auto;
+    margin-top: 10vh;
+    word-wrap: break-word;
+    font-size: 3vh;
     text-align: center;
+    display: none;
+}
+.dislikes{
     display: none;
 }
 /*font*/
