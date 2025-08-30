@@ -1,4 +1,17 @@
 # niconotpig-ace-attorney
+My personal website to learn about me!!
+### 2025 august 30th - version 2
+scroll down to see previous text!!
+# Introduction V2
+Hi hi!! I mostly figured things out and added javascript!! I'm still really bad and I struggle for hours on end for like every piece of code still :hdheavysob:(slack reference). This actually really helped me learn code so thank you Pheonix Wright. 
+
+## Features V2:
+You can now actually click on the dialogue options to learn about me!! I might add more later on but this might be it for now. Mobile display is still buns and I don't really know how to fix that right now and it isn't really a priority. please don't visit this on mobile lmao
+
+## notes and other:
+I had so much fun learning how to code with this project!! i'm loving coding so far and this lowkey makes me want to start a hack club in my own school. To see the dialogue options again, just click the transparent dialogue box. 
+
+### 2025 august 28th - version 1 
 # Introduction
 Hello guys! I'm nico (real name amber) and this is my Pheonix Wright: Ace Attourney inspired website. This is literally my first time ever coding so feel free to judge the mess of code that it probably will be. I'm using this project to learn HTML, CSS and JS because again it's literally my first time coding 💀 
 
@@ -15,4 +28,5 @@ Currently, this website doesn't really have anything. But the main-ish functions
 This website will hopefully be a part of my athena award lineup for hack club!! also if you're on mobile this might be the most hideous thing ever i did NOT take mobile into consideration (sorry mobile gang)
 but yea that's about it!! I'll add more changes eventually
 
-### 2025 august 28th - version 1 
+
+

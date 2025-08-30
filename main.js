@@ -31,5 +31,9 @@ function displayInfo(infoType){
 }
 
 function likes_dislikes(){
-    document.getElementById("likes/dislikes").innerHTML = "blanhahajhjhha"
+    let likes, dislikes
+    likes = document.getElementById("likes");
+    dislikes = document.getElementById("dislikes1");
+    dislikes.classList.toggle("invisible");
+    likes.classList.toggle("invisible");
 }

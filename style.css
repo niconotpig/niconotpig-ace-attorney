@@ -93,8 +93,8 @@ div.name {
     text-align: center;
     display: none;
 }
-.dislikes{
-    display: none;
+.invisible{
+    display:none;
 }
 /*font*/
 .PWAA {
